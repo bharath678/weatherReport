@@ -11,6 +11,7 @@ weatherForm.addEventListener('submit', async event => {
 
     
     city = cityInput.value.toLowerCase();
+    city = city.trim();
     
     if(city){
         try {
